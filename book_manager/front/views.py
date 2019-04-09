@@ -39,3 +39,25 @@ def delete_book(request):
         return redirect(reverse('index'))
     else:
         raise RuntimeError('删除图书的method错误！')
+
+
+def edit_book(request):
+    if request.method == 'POST':
+        book_id = request.POST.get('book_id')
+        cursor = get_cursor()
+        cursor.execute('select * from books where id={}'.format(book_id))
+        book = cursor.fetchone()
+        return render(request, 'edit_book.html', {'book': book})
+    else:
+        raise RuntimeError('编辑图书的method错误！')
+
+
+def save_book(request, book_id):
+    if request.method == 'POST':
+        name = request.POST.get('name')
+        author = request.POST.get('author')
+        cursor = get_cursor()
+        cursor.execute("update books set name='{}',author='{}' where id={}".format(name, author, book_id))
+        return redirect(reverse('book_detail', kwargs={'book_id': book_id}))
+    else:
+        raise RuntimeError('保存的method错误！')
