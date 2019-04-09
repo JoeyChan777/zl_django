@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'front/base.css' %}">
+</head>
+<body>
+    <nav class="nav">
+        <a href="{% url 'index' %}">首页</a>
+        <a href="{% url 'add_book' %}">发布图书</a>
+    </nav>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
