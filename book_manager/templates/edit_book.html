@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}图书详情{% endblock %}
+{% block content %}
+    <form action="{% url 'save_book' book.0 %}" method="post">
+    {% csrf_token %}
+    书名：<input type="text" name="name" value="{{ book.1 }}"><br>
+    作者：<input type="text" name="author" value="{{ book.2 }}"><br>
+          <input type="submit" value="保存">
+    </form>
+{% endblock %}
