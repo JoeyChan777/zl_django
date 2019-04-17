@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4ad69d7-4d15-4485-a219-d19d0dd7f315" name="Default Changelist" comment="" />
+    <list default="true" id="d4ad69d7-4d15-4485-a219-d19d0dd7f315" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BookProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,19 +22,20 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2878" />
+          <entry key="py" value="3536" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2878" />
+          <entry key="Python" value="3536" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -83,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="70" column="24" lean-forward="true" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+            <state relative-caret-position="434">
+              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -183,6 +187,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -273,12 +278,12 @@
     <frame x="608" y="51" width="1284" height="918" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1879085" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19117647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29098806" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2899106" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,8 +354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="70" column="24" lean-forward="true" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+        <state relative-caret-position="434">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Student,Teacher,Score,Course
-from django.db.models import Avg,Sum,Count,Q
+from django.db.models import Avg,Sum,Count,Q,F,Max,Min
 from django.db import connection
 
 
@@ -65,7 +65,7 @@ def index6(request):
 def index7(request):
     # 查询所有课程成绩小于60分的同学的id和姓名
     # 每个同学所学的课程总数
-    students = Student.objects.aggregate(course_num=Count('score__student_id'))
+    #students = Student.objects.aggregate(course_num=Count('score__student_id'))
     #students = Student.objects.annotate(nums=Count('score__number',filter=Q(score__number__lt=60))).filter(nums=Student.objects.aggregate(course_num=Count('score__student_id'))).values('id','name')
     # for student in students:
     #     print(student)
@@ -77,31 +77,51 @@ def index7(request):
 
 def index8(request):
     # 查询没有学全所有课的同学的id、姓名
+    students = Student.objects.annotate(course_num=Count('score__course')).exclude(course_num=Course.objects.all().count()).values('id','name')
+    for student in students:
+        print(student)
+    print(connection.queries)
     return HttpResponse('success')
 
 
 def index9(request):
     # 查询所有学生的姓名、平均分，并且按照平均分从高到低排序
+    students = Student.objects.annotate(avg_score=Avg('score__number')).order_by('-avg_score').values('name','avg_score')
+    for student in students:
+        print(student)
+    print(connection.queries)
     return HttpResponse('success')
 
 
 def index10(request):
     # 查询各科成绩的最高和最低分，以如下形式显示：课程ID，课程名称，最高分，最低分
+    courses = Course.objects.annotate(max=Max('score__number'),min=Min('score__number')).values('id','name','max','min')
+    for course in courses:
+        print(course)
+    print(connection.queries)
     return HttpResponse('success')
 
 
 def index11(request):
-    # 查询没门课程的平均成绩，按照平均成绩进行排序
+    # 查询每门课程的平均成绩，按照平均成绩进行排序
+    courses = Course.objects.annotate(avg=Avg('score__number')).order_by('-avg').values('id','name','avg')
+    for course in courses:
+        print(course)
+    print(connection.queries)
     return HttpResponse('success')
 
 
 def index12(request):
     # 统计总共有多少女生，多少男生
+    
     return HttpResponse('success')
 
 
 def index13(request):
     # 将“黄老师”的每一门课程都在原来的基础之上加5分
+    rows = Score.objects.filter(course__teacher__name='黄老师').update(number=F('number')+5)
+    print(rows)
+    print(connection.queries)
     return HttpResponse('success')
 
 
