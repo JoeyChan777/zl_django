@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4ad69d7-4d15-4485-a219-d19d0dd7f315" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../book_manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_manager/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d4ad69d7-4d15-4485-a219-d19d0dd7f315" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
     <session id="-371853888">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -83,11 +82,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="526">
+              <caret line="74" column="34" lean-forward="true" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1555412265425" expanded="true" signature="578:614" ph="..." />
+                <marker date="1555412282912" expanded="true" signature="578:614" ph="..." />
               </folding>
             </state>
           </provider>
@@ -144,7 +143,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="321" />
     <option name="y" value="41" />
     <option name="width" value="1284" />
@@ -285,7 +284,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29098806" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29098806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -350,11 +349,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="526">
+          <caret line="74" column="34" lean-forward="true" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1555412265425" expanded="true" signature="578:614" ph="..." />
+            <marker date="1555412282912" expanded="true" signature="578:614" ph="..." />
           </folding>
         </state>
       </provider>
