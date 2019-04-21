@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e3f41d6-aafa-4a9a-bdfa-2d0f34804058" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/../orm_homework/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../orm_homework/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../orm_homework/.idea/orm_homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../orm_homework/.idea/orm_homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/.idea/BookProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/BookProject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/BookProject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/BookProject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/BookProject/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/book/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/book/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/book/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/book/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/book/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/book/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/book/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/book/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/tb_authors.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookProject/tb_book.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../orm_homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../orm_homework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../orm_homework/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../orm_homework/front/views.py" afterDir="false" />
     </list>
@@ -27,11 +45,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/templates/front/article_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            <state relative-caret-position="47">
+              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../orm_homework/front/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="124" column="21" lean-forward="true" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,6 +122,7 @@
         <option value="$PROJECT_DIR$/class_view_demo/urls.py" />
         <option value="$PROJECT_DIR$/front/views.py" />
         <option value="$PROJECT_DIR$/front/templates/front/article_list.html" />
+        <option value="$PROJECT_DIR$/../orm_homework/front/views.py" />
       </list>
     </option>
   </component>
@@ -153,6 +184,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/front" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -217,12 +249,12 @@
       <updated>1555724590034</updated>
       <workItem from="1555728665444" duration="872000" />
       <workItem from="1555734628504" duration="3547000" />
-      <workItem from="1555809470609" duration="7805000" />
+      <workItem from="1555809470609" duration="8376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12224000" />
+    <option name="totallyTimeSpent" value="12795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="505" y="23" width="1034" height="832" extended-state="0" />
@@ -355,8 +387,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/front/article_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="47">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../orm_homework/front/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="124" column="21" lean-forward="true" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
